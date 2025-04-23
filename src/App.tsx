@@ -29,14 +29,8 @@ function App() {
               <Route path="/mods/:id" element={<ModDetailPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
-              <Route 
-                path="/media" 
-                element={
-                  <ProtectedRoute>
-                    <MediaPage />
-                  </ProtectedRoute>
-                } 
-              />
+              <Route path="/media" element={<MediaPage />} />
+
               <Route 
                 path="/admin" 
                 element={

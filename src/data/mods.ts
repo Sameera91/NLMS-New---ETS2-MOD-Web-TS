@@ -5,6 +5,7 @@ export const mods: Mod[] = [
   {
     id: '1',
     title: 'Mercedes-Benz Actros 2019 Premium',
+    name: 'Mercedes-Benz Actros 2019 Premium',
     description: 'High-quality truck mod with custom interior, multiple engine options, and real-life sounds.',
     imageUrl: 'https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg',
     downloadUrl: '/download/1',
@@ -16,6 +17,7 @@ export const mods: Mod[] = [
   {
     id: '2',
     title: 'Scania S730 Custom Parts',
+    name: 'Scania S730 Custom Parts',
     description: 'Enhanced parts pack for Scania S730 including custom bumpers, lights, and interior accessories.',
     imageUrl: 'https://images.pexels.com/photos/3662845/pexels-photo-3662845.jpeg',
     downloadUrl: '/download/2',
@@ -27,6 +29,7 @@ export const mods: Mod[] = [
   {
     id: '3',
     title: 'Premium Coach Bus Mod',
+    name: 'Premium Coach Bus Mod',
     description: 'Luxury coach bus with detailed interior and exterior, accurate physics, and custom sounds.',
     imageUrl: 'https://images.pexels.com/photos/68629/pexels-photo-68629.jpeg',
     downloadUrl: '/download/3',
@@ -38,6 +41,7 @@ export const mods: Mod[] = [
   {
     id: '4',
     title: 'Bus Dashboard Enhancement Kit',
+    name: 'Bus Dashboard Enhancement Kit',
     description: 'Complete dashboard upgrade for various bus models with enhanced textures and functionality.',
     imageUrl: 'https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg',
     downloadUrl: '/download/4',
@@ -49,6 +53,7 @@ export const mods: Mod[] = [
   {
     id: '5',
     title: 'Volvo FH16 Custom Tuning',
+    name: 'Volvo FH16 Custom Tuning',
     description: 'Performance tuning mod for Volvo FH16 with realistic engine parameters and sound enhancements.',
     imageUrl: 'https://images.pexels.com/photos/2449454/pexels-photo-2449454.jpeg',
     downloadUrl: '/download/5',
@@ -60,6 +65,7 @@ export const mods: Mod[] = [
   {
     id: '6',
     title: 'MAN TGX Euro 6 Sound Package',
+    name: 'MAN TGX Euro 6 Sound Package',
     description: 'High-quality sound pack for MAN TGX Euro 6 trucks with realistic engine, interior, and exterior sounds.',
     imageUrl: 'https://images.pexels.com/photos/93398/pexels-photo-93398.jpeg',
     downloadUrl: '/download/6',

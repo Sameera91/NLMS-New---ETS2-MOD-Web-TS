@@ -27,7 +27,7 @@ const modSuggestions = [
   "Truck parts",
   "exterrior mod",
   "Interior Mod",
-  "Man TGX",
+  
 ];
 
 const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {

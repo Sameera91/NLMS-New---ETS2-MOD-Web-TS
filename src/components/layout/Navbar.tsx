@@ -68,11 +68,9 @@ const Navbar: React.FC = () => {
             >
               Contact
             </Link>
-            {isAuthenticated && (
-              <Link to="/media" className={`font-medium ${isActive("/media")}`}>
-                Media
-              </Link>
-            )}
+            <Link to="/media" className={`font-medium ${isActive("/media")}`}>
+              Media
+            </Link>
             {user?.isAdmin && (
               <Link to="/admin" className={`font-medium ${isActive("/admin")}`}>
                 Admin
@@ -152,15 +150,13 @@ const Navbar: React.FC = () => {
             >
               Contact
             </Link>
-            {isAuthenticated && (
-              <Link
-                to="/media"
-                onClick={closeMenu}
-                className="block hover:text-blue-400"
-              >
-                Media
-              </Link>
-            )}
+            <Link
+              to="/media"
+              onClick={closeMenu}
+              className="block hover:text-blue-400"
+            >
+              Media
+            </Link>
             {user?.isAdmin && (
               <Link
                 to="/admin"

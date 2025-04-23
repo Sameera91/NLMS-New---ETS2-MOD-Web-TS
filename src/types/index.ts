@@ -8,6 +8,7 @@ export interface User {
 export interface Mod {
   id: string;
   title: string;
+  name:string;
   description: string;
   imageUrl: string;
   downloadUrl: string;

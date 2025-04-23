@@ -1,33 +1,40 @@
-import React, { useState, useEffect } from 'react';
-import { SlidersHorizontal, Search } from 'lucide-react';
-import { ModCategory } from '../../types';
+import React, { useState, useEffect } from "react";
+import { SlidersHorizontal, Search } from "lucide-react";
+import { ModCategory } from "../../types";
 
 interface ModFilterProps {
   onFilterChange: (category: ModCategory | null) => void;
   onSearch: (term: string) => void;
 }
 
-const categories: ModCategory[] = ['Bus Mods', 'Bus Parts', 'Truck Mods', 'Truck Parts'];
+const categories: ModCategory[] = [
+  "Bus Mods",
+  "Bus Parts",
+  "Truck Mods",
+  "Truck Parts",
+];
 
 // Example mod suggestions - replace with dynamic data or API later
 const modSuggestions = [
-  'Bus Mods',
-  'Bus Skin',
-  'Bus parts',
-  'exterrior mod',
-  'Interior Mod',
-  'Custom Horn',
-  'Truck Mods',
-  'Truck Skin',
-  'Truck parts',
-  'exterrior mod',
-  'Interior Mod',
-  'Man TGX',
+  "Bus Mods",
+  "Bus Skin",
+  "Bus parts",
+  "exterrior mod",
+  "Interior Mod",
+  "Custom Horn",
+  "Truck Mods",
+  "Truck Skin",
+  "Truck parts",
+  "exterrior mod",
+  "Interior Mod",
+  "Man TGX",
 ];
 
 const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {
-  const [selectedCategory, setSelectedCategory] = useState<ModCategory | null>(null);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState<ModCategory | null>(
+    null
+  );
+  const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState<string[]>([]);
 
   const handleCategoryChange = (category: ModCategory | null) => {
@@ -43,8 +50,8 @@ const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {
 
   const handleInputChange = (value: string) => {
     setSearchTerm(value);
-
-    // Only react to alphabetic characters
+    onSearch(value); 
+  
     const isAlphabet = /^[A-Za-z]/.test(value);
     if (value.trim() === '' || !isAlphabet) {
       setSuggestions([]);
@@ -55,6 +62,7 @@ const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {
       setSuggestions(filtered);
     }
   };
+  
 
   const handleSuggestionClick = (suggestion: string) => {
     setSearchTerm(suggestion);
@@ -63,8 +71,8 @@ const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {
   };
 
   useEffect(() => {
-    if (searchTerm === '') {
-      onSearch('');
+    if (searchTerm === "") {
+      onSearch("");
     }
   }, [searchTerm, onSearch]);
 
@@ -115,8 +123,8 @@ const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {
             onClick={() => handleCategoryChange(null)}
             className={`px-3 py-1 rounded-full text-sm font-medium transition-colors duration-300 ${
               selectedCategory === null
-                ? 'bg-blue-600 text-white'
-                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                ? "bg-blue-600 text-white"
+                : "bg-gray-200 text-gray-700 hover:bg-gray-300"
             }`}
           >
             All Mods
@@ -128,8 +136,8 @@ const ModFilter: React.FC<ModFilterProps> = ({ onFilterChange, onSearch }) => {
               onClick={() => handleCategoryChange(category)}
               className={`px-3 py-1 rounded-full text-sm font-medium transition-colors duration-300 ${
                 selectedCategory === category
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                  ? "bg-blue-600 text-white"
+                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
             >
               {category}

@@ -60,3 +60,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #2563eb;
 }
+
+.sri-lanka {
+  font-weight: bold;
+  background: linear-gradient(90deg, #FFA500, #00534E, #8D153A, #FFD700);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}

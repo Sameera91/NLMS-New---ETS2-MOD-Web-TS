@@ -50,9 +50,9 @@ const ContactPage: React.FC = () => {
       <div className="container mx-auto px-4">
         {/* Hero Title */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-extrabold text-blue-800 mb-4 animate-fade-in">
+          <h1 className="text-5xl font-bold text-black mb-4 animate-fade-in">
             Contact{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-cyan-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-700">
               NLMS
             </span>
           </h1>

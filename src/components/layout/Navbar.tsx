@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
               </div>
             ) : (
               <div className="flex space-x-2">
-                <Link to="/login" className="hover:text-blue-300">
+                <Link to="/login" className="hover:text-blue-300 py-2">
                   Login
                 </Link>
                 <Link

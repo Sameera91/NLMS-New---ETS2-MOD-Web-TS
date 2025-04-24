@@ -71,7 +71,7 @@ const ContactPage: React.FC = () => {
               ),
               title: "WhatsApp",
               desc: "Quick support via WhatsApp",
-              link: "https://api.whatsapp.com/send?phone=94787569738&text=Hello%20NLMS%20Team%2C%20I%20need%20support",
+              link: "https://api.whatsapp.com/send?phone=94704604578&text=Hello%20NLMS%20Team%2C%20I%20need%20support",
 
 
               label: "Chat Now",

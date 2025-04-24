@@ -120,12 +120,12 @@ const Footer: React.FC = () => {
               info@nlms.com
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=94787569738&text=Hello%20NLMS%20Team%2C%20I%20need%20support"
+              href="https://api.whatsapp.com/send?phone=94704604578&text=Hello%20NLMS%20Team%2C%20I%20need%20support"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-300 transition block text-sm"
             >
-              WhatsApp: +94 78 756 9738
+              WhatsApp: +94 70 460 4578
             </a>
           </div>
         </div>

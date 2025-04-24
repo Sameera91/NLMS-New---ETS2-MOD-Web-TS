@@ -232,7 +232,7 @@ const ContactPage: React.FC = () => {
                   {
                     icon: <Phone className="h-5 w-5 mr-3" />,
                     title: "Phone Support",
-                    info: "+94 78 756 9738",
+                    info: "+94 70 460 4578",
                   },
                   {
                     icon: <Mail className="h-5 w-5 mr-3" />,

@@ -71,7 +71,9 @@ const ContactPage: React.FC = () => {
               ),
               title: "WhatsApp",
               desc: "Quick support via WhatsApp",
-              link: "https://wa.me/94787569738",
+              link: "https://api.whatsapp.com/send?phone=94787569738&text=Hello%20NLMS%20Team%2C%20I%20need%20support",
+
+
               label: "Chat Now",
             },
             {
@@ -80,7 +82,7 @@ const ContactPage: React.FC = () => {
               ),
               title: "Discord",
               desc: "Join our modding community",
-              link: "https://discord.gg/6HSz5V5p",
+              link: "https://discord.gg/MYu4Uqpuma",
               label: "Join Discord",
             },
             {

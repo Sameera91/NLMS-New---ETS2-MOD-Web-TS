@@ -158,7 +158,7 @@ const AboutPage: React.FC = () => {
               </a>
 
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/share/163cnkQWpP/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 border-2 border-white px-7 py-3 rounded-full text-lg font-bold text-white hover:bg-white hover:text-blue-800 transition-all duration-300 hover:scale-105 shadow-md"

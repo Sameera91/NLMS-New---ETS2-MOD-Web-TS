@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/163cnkQWpP/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#1877F2] transition-transform hover:scale-110"
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                 <Instagram size={22} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@redpandagaming4256"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-500 transition-transform hover:scale-110"
@@ -120,7 +120,7 @@ const Footer: React.FC = () => {
               info@nlms.com
             </a>
             <a
-              href="https://wa.me/+94787569738"
+              href="https://api.whatsapp.com/send?phone=94787569738&text=Hello%20NLMS%20Team%2C%20I%20need%20support"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-300 transition block text-sm"

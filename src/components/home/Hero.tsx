@@ -5,9 +5,9 @@ import { ChevronRight, Download } from "lucide-react";
 import mainLogo from "../../assets/mainlogo.png"
 
 const backgroundImages = [
-  "https://cdn.discordapp.com/attachments/1123362230700875819/1363946814797119719/WhatsApp_Image_2025-04-02_at_16.22.49_d7602ff9.jpg?ex=68093375&is=6807e1f5&hm=c053b98de189498229f020ca8bf096e960ac83a8db161361895b5eba6a5dc399&",
-  "https://cdn.discordapp.com/attachments/1123362230700875819/1363964580757377094/1.jpg?ex=68094401&is=6807f281&hm=a9bdf90964e44592347db4c9cb101e37107a250281f41944655788585d9bf1ed&",
-  "https://cdn.discordapp.com/attachments/1123362230700875819/1364135338292805715/2.jpg?ex=68093a49&is=6807e8c9&hm=9e1a38abb35a7412f3b782eaa32c5e7279e803cc752a9e9bb52bf4c76e89cd09&",
+  "https://cdn.discordapp.com/attachments/1339626094835404973/1364582823847133225/ets2_20250407_063803_00.png?ex=680adb09&is=68098989&hm=432eb336eb0eace0ff4b211d6d1f18c91de2d17c51f23f931fe049dd36f22109&",
+  "https://media.discordapp.net/attachments/1339626094835404973/1364866983429931079/ets2_20250424_130056_00.png?ex=680b3aee&is=6809e96e&hm=bb840d373e932a7a20ddd27cb01892b54e1369718a15136f87fe9e837b153c14&=&format=webp&quality=lossless&width=981&height=552",
+  "https://media.discordapp.net/attachments/1339626094835404973/1364866986923921519/ets2_20250424_125936_00.png?ex=680b3aef&is=6809e96f&hm=5c58ed4c97c7e0881f71337f8723ef69db39f0f27afcd8d8e5785412390c8e84&=&format=webp&quality=lossless&width=981&height=552 ",
 ];
 
 const Hero: React.FC = () => {

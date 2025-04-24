@@ -40,7 +40,7 @@ const AboutPage: React.FC = () => {
             </h1>
 
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Your premier source for high-quality Euro Truck Simulator 2 mods.
+              Your premier source for high-quality Euro Truck Simulator 2 mods..
             </p>
           </div>
         </div>
